@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class DNSServlet extends HttpServlet
 {
-	private static String	pattern;
+	private static String	pattern=null;
 	
 	private static String getContent()
 	{
